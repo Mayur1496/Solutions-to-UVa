@@ -30,6 +30,7 @@ int main() {
     for (int i = 0; i < n; i++) {
       cout<<names[i]<<" "<<map[names[i]]<<endl;
     }
+    temp++;
   }
   return 0;
 }
