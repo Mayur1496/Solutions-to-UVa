@@ -1,0 +1,22 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+	string s;
+	boolean b=false;
+	cin>>s;
+for(int i=0; i<(strlen(s)/2); i++){
+	if(s[i]==s[strlen-i]){
+		continue;
+	}
+	else{
+		b=true;
+		break;
+	}
+	if(b){
+		cout<<"NO";
+	}
+	else
+		cout<<"YES";
+}
+}
